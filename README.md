@@ -59,6 +59,9 @@ python3 scripts/fill_numbers_from_json.py
 
 Software stack (related): https://doi.org/10.5281/zenodo.20576241  
 
+**Level-3 implementation (code):** install [`nested-recd`](https://pypi.org/project/nested-recd/) **≥ 0.2** — continuous excess³, Φ₁–Φ₃, phase-shuffle nulls on `|Δ excess3|`.  
+`systemictau` consumes it via `pip install "systemictau[nested]"` / `systemictau.nested`.
+
 ## Contract (short)
 
 - `excess3 = 0.6·Syn + 0.4·Surp` with weights fixed a priori  
