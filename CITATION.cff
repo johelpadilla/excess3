@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use excess3, please cite the methods preprint (canonical specification)."
+title: "excess3: methods, Spanish introduction, and cross-disciplinary guide"
+authors:
+  - family-names: "Padilla-Villanueva"
+    given-names: "Johel"
+    orcid: "https://orcid.org/0000-0002-5797-6931"
+    email: "johelpadilla@gmail.com"
+    affiliation: "Department of Environmental Health, University of Puerto Rico"
+date-released: "2026-07-15"
+version: "1.0.0"
+license: CC-BY-4.0
+repository-code: "https://github.com/johelpadilla/excess3"
+keywords:
+  - excess3
+  - synergistic information
+  - high-order dependence
+  - RECD
+  - Systemic Tau
+  - ordinal patterns
+  - surrogate testing
+abstract: >
+  Shared repository for the excess3 document family: (1) English methods
+  and synthetic validation (canonical), (2) Spanish dense introduction with
+  figures, (3) English cross-disciplinary pedagogical guide.
