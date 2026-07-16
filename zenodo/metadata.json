@@ -1,0 +1,45 @@
+{
+  "title": "excess³: a pre-specified continuous proxy for order-3 synergistic surplus — methods, Spanish introduction, and cross-disciplinary guide",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p><strong>excess³</strong> (<code>excess3</code> in software) is a pre-specified continuous proxy for order-3 synergistic surplus in the Systemic Tau / RECD programme.</p><p>This deposit archives the shared document family:</p><ul><li><strong>methods/</strong> — canonical English methods paper: formal definition, null models (phase-shuffle on the full contrast), synthetic validation arms G0–G3, reporting checklist.</li><li><strong>intro/</strong> — dense Spanish introduction with integrated validation figures and results-writing guidance.</li><li><strong>primer/</strong> — English cross-disciplinary pedagogical guide (analogies, domain vignettes, teaching notes).</li></ul><p>Contract (short): <code>excess3 = 0.6·Syn + 0.4·Surp</code> with weights fixed a priori; continuous primary / Φ₃ secondary; inference on full |Δ|; proxy ≠ full PID; parallel RECD nesting; dependence language, not causation.</p><p><strong>GitHub:</strong> <a href=\"https://github.com/johelpadilla/excess3\">https://github.com/johelpadilla/excess3</a></p><p>Cite the <em>methods</em> PDF for the statistical specification.</p>",
+  "creators": [
+    {
+      "name": "Padilla-Villanueva, Johel",
+      "affiliation": "Department of Environmental Health, University of Puerto Rico",
+      "orcid": "0000-0002-5797-6931"
+    }
+  ],
+  "keywords": [
+    "excess3",
+    "synergistic information",
+    "high-order dependence",
+    "partial information decomposition",
+    "RECD",
+    "Systemic Tau",
+    "ordinal patterns",
+    "Bandt-Pompe",
+    "surrogate testing",
+    "complex systems"
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "publication_date": "2026-07-15",
+  "version": "1.0.1",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/johelpadilla/excess3",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.20576241",
+      "relation": "isCompiledBy",
+      "resource_type": "software",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Document family v1.0.1. Methods PDF is the canonical specification; intro (ES) and primer (EN) are pedagogical companions that do not redefine the statistic. Contact: johelpadilla@gmail.com · joel.padilla2@upr.edu"
+}

@@ -34,3 +34,9 @@ venv/
 # Local handoffs / scratch
 HANDOFF*.md
 *.tmp
+
+# secrets
+.zenodo_token
+.env
+zenodo/deposition_state.json
+zenodo/*.zip

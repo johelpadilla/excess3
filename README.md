@@ -74,4 +74,7 @@ Manuscripts and figures in this repository are intended for distribution under
 
 ## Zenodo
 
-A versioned archival deposit (DOI) will be linked here and in the PDF front matter upon release.
+**DOI:** [10.5281/zenodo.21385937](https://doi.org/10.5281/zenodo.21385937)
+
+Versioned archival deposit of this repository (methods + intro ES + primer EN).
+

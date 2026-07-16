@@ -8,9 +8,10 @@ authors:
     email: "johelpadilla@gmail.com"
     affiliation: "Department of Environmental Health, University of Puerto Rico"
 date-released: "2026-07-15"
-version: "1.0.0"
+version: "1.0.1"
 license: CC-BY-4.0
 repository-code: "https://github.com/johelpadilla/excess3"
+doi: "10.5281/zenodo.21385937"
 keywords:
   - excess3
   - synergistic information
