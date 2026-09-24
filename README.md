@@ -75,9 +75,14 @@ Software stack (related): https://doi.org/10.5281/zenodo.20576241
 Manuscripts and figures in this repository are intended for distribution under  
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
 
+## Separate note (accumulation-point peak)
+
+[`accumulation/`](accumulation/) is a later preprint. It explains the excess3 peak near the logistic accumulation point on the coupled-map cascade. It is a separate Zenodo record, not a new version of the methods deposit.
+
+**DOI:** [10.5281/zenodo.22945800](https://doi.org/10.5281/zenodo.22945800)
+
 ## Zenodo
 
-**DOI:** [10.5281/zenodo.21385937](https://doi.org/10.5281/zenodo.21385937)
-
-Versioned archival deposit of this repository (methods + intro ES + primer EN).
+- **Methods family:** [10.5281/zenodo.21385937](https://doi.org/10.5281/zenodo.21385937). Versioned archival deposit of the methods paper, the Spanish introduction, and the English primer.
+- **Accumulation-point note:** [10.5281/zenodo.22945800](https://doi.org/10.5281/zenodo.22945800). Separate record for [`accumulation/`](accumulation/).
 
