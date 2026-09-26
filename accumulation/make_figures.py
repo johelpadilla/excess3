@@ -30,7 +30,7 @@ spec.loader.exec_module(cascade)
 
 from nested_recd import generate_multivariate_symbols
 
-AGG_PATH = ROOT / "results" / "peak_rinf" / "peak_agg_20260924_145527.csv"
+AGG_PATH = ROOT / "results" / "peak_rinf" / "corrected_20260925" / "merged_agg.csv"
 FLAT_PATH = ROOT / "results" / "peak_rinf" / "peak_flat_20260924_145527.csv"
 FIG = PAPER / "figures"
 GEN = PAPER / "generated"
@@ -393,7 +393,6 @@ def main():
         row_tex(rinf, "$r_\\infty$"),
         row_tex(p3, "period-3 window"),
         row_tex(chaos, "developed chaos"),
-        row_tex(synmax, "largest Syn"),
     ])
     if stations_tex.endswith("\\\\"):
         stations_tex = stations_tex[:-2].rstrip()

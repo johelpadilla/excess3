@@ -77,12 +77,13 @@ Manuscripts and figures in this repository are intended for distribution under
 
 ## Separate note (accumulation-point peak)
 
-[`accumulation/`](accumulation/) is a later preprint. It explains the excess3 peak near the logistic accumulation point on the coupled-map cascade. It is a separate Zenodo record, not a new version of the methods deposit.
+[`accumulation/`](accumulation/) is a later preprint on the coupled-map cascade. Version 2 counts joint tuples. The window-13 excess3 maximum is at r = 3.95. Version 1, which used the pooled-symbol count, remains citable. The note is not a new version of the methods deposit.
 
-**DOI:** [10.5281/zenodo.22945800](https://doi.org/10.5281/zenodo.22945800)
+**Version 2:** [10.5281/zenodo.22970080](https://doi.org/10.5281/zenodo.22970080)  
+**Version 1:** [10.5281/zenodo.22945800](https://doi.org/10.5281/zenodo.22945800)
 
 ## Zenodo
 
 - **Methods family:** [10.5281/zenodo.21385937](https://doi.org/10.5281/zenodo.21385937). Versioned archival deposit of the methods paper, the Spanish introduction, and the English primer.
-- **Accumulation-point note:** [10.5281/zenodo.22945800](https://doi.org/10.5281/zenodo.22945800). Separate record for [`accumulation/`](accumulation/).
+- **Accumulation-point note:** version 2 [10.5281/zenodo.22970080](https://doi.org/10.5281/zenodo.22970080); version 1 [10.5281/zenodo.22945800](https://doi.org/10.5281/zenodo.22945800). Separate record for [`accumulation/`](accumulation/).
 

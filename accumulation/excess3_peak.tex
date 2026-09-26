@@ -27,17 +27,17 @@
 \newcommand{\msalt}[1]{\par\nopagebreak\vspace{1pt}{\footnotesize\textit{Alt text.} #1}\par}
 
 \hypersetup{
-  pdftitle={A low-diversity ordinal regime produces the excess3 peak near the logistic accumulation point},
+  pdftitle={Joint-tuple counting moves the window-13 excess3 maximum into developed chaos},
   pdfauthor={Johel Padilla-Villanueva},
-  pdfsubject={Preprint, DOI 10.5281/zenodo.22945800},
+  pdfsubject={Preprint, version 2, DOI 10.5281/zenodo.22970080},
   pdfkeywords={excess3, ordinal patterns, Feigenbaum accumulation, pairwise residual, coupled logistic maps},
   breaklinks=true,
   colorlinks=false,
   pdfborder={0 0 0}
 }
 
-\title{A low-diversity ordinal regime produces the excess3 peak\\
-near the logistic accumulation point}
+\title{Joint-tuple counting moves the window-13 excess3\\
+maximum into developed chaos}
 
 \author{%
 Johel Padilla-Villanueva\\
@@ -47,37 +47,34 @@ ORCID: 0000-0002-5797-6931\\
 \texttt{johelpadilla@gmail.com}%
 }
 
-\date{24 September 2026}
+\date{25 September 2026}
 
 \begin{document}
 \maketitle
 \begin{center}
-DOI: \href{https://doi.org/10.5281/zenodo.22945800}{10.5281/zenodo.22945800}
+DOI: \href{https://doi.org/10.5281/zenodo.22970080}{10.5281/zenodo.22970080}\\
+Version 2 of \href{https://doi.org/10.5281/zenodo.22945800}{10.5281/zenodo.22945800}
 \end{center}
 
 \begin{abstract}
-On four diffusively coupled logistic maps, the hybrid proxy
-$\excess=0.6\,\mathrm{Syn}+0.4\,\mathrm{Surp}$ reaches its maximum near
-the period-doubling accumulation and is lower in developed chaos. The
-geometric reading of that maximum was left as a hypothesis. The same
-generator, seeds, and hybrid are decomposed here on a grid of 49 parameter
-values, with six realizations at each value. The six-seed mean is largest
-at $r=3.5675$, where $\excess=2.378\pm 0.002$ in windows of 13 symbols.
-Surprise against independence carries that elevation. The synergy term is
-$0.0065\pm 0.0004$ there and attains its own maximum only at $r=3.95$.
-Inside the short window the joint occupies $4.11\pm 0.02$ ordinal tuples.
-Independent draws from the pairwise maximum-entropy projection of the
-invariant joint reproduce the score of independent draws from the joint
-itself. The sliding window lies about $0.30$ bits higher because
-consecutive symbols are more concentrated than independent samples. The
-Kullback--Leibler residual beyond pairwise margins is $0.0003\pm 0.0001$
-on the full symbol block at the maximum and $0.192\pm 0.002$ at $r=3.85$,
-where the proxy has already fallen. A period-3 window does not repeat the
-peak. Lengthening the window from 6 to 312 symbols leaves the accumulation
-score near $2.3$ and lowers the chaotic score from about $2.08$ to $0.51$.
-The high values form a band, $r\in[3.544,3.595]$, rather than a cusp at the
-accumulation point. On this generator the proxy and the irreducible
-residual mark different parts of the cascade.
+Version~1 of this note reported that, on four diffusively coupled logistic
+maps, the hybrid $\excess=0.6\,\mathrm{Syn}+0.4\,\mathrm{Surp}$ is largest
+near period-doubling accumulation. That location was produced by
+nested-recd~0.2.2, which flattened joint tuples when it counted the
+entropies inside $\mathrm{Syn}$. This version keeps the generator, the
+seeds, the grid, and the weights, and counts joint tuples
+(nested-recd~0.2.3). On windows of 13 symbols the six-seed mean is largest
+at the right edge of the grid, $r=3.95$, where
+$\excess=2.897\pm 0.006$. At $r=3.5675$ the mean is
+$2.383\pm 0.0004$. Surprise still peaks in the accumulation band,
+$5.936\pm 0.004$, on $4.11\pm 0.02$ joint tuples, and the full-block
+residual there remains $0.0003\pm 0.0001$. Synergy is
+$0.0137\pm 0.0021$ at $r=3.5675$ and $1.782\pm 0.010$ at $r=3.95$.
+The short-window maximum is therefore the chaotic rise of $\mathrm{Syn}$.
+Leave-one-seed maxima all fall at $r=3.95$. For windows of length $78$ and
+longer the argmax returns to the accumulation band. At $r=3.85$ the
+full-block residual remains $0.192\pm 0.002$. The legacy estimator
+reproduces every archived window-13 mean of version~1.
 \end{abstract}
 
 \noindent\textbf{Keywords:}
@@ -86,22 +83,21 @@ coupled logistic maps
 
 \vspace{0.6em}
 \noindent\textbf{Resumen.}
-En cuatro mapas logísticos acoplados, el proxy
-$\excess=0.6\,\mathrm{Syn}+0.4\,\mathrm{Surp}$ alcanza su máximo cerca de
-la acumulación de doblamiento de periodo. En una rejilla de 49 valores de
-$r$, con seis realizaciones, ese máximo está en $r=3.5675$ y vale
-$2.378\pm 0.002$ para ventanas de 13 símbolos. La elevación la lleva la
-sorpresa frente a la independencia. La sinergia vale ahí
-$0.0065\pm 0.0004$ y solo crece más adelante. La ventana ocupa
-$4.11\pm 0.02$ tuplas ordinales conjuntas. La proyección de máxima
-entropía por pares reproduce el valor de extracciones independientes de la
-ley conjunta; la ventana deslizante queda unos $0.30$ bits por encima
-porque los símbolos consecutivos están más concentrados. El residuo de
-Kullback--Leibler más allá de los pares es $0.0003\pm 0.0001$ en el bloque
-completo del máximo y $0.192\pm 0.002$ en $r=3.85$, donde el proxy ya
-bajó. La ventana de periodo~3 no repite el pico. Alargar la ventana
-mantiene el pico y agranda el contraste con el caos. En este generador el
-proxy y el residuo irreducible marcan tramos distintos de la cascada.
+La versión~1 de esta nota situaba el máximo de
+$\excess=0.6\,\mathrm{Syn}+0.4\,\mathrm{Surp}$ cerca de la acumulación.
+Ese lugar salía de nested-recd~0.2.2, que aplanaba las tuplas conjuntas al
+contar las entropías de $\mathrm{Syn}$. Esta versión conserva el
+generador, las semillas, la rejilla y los pesos, y cuenta tuplas
+(nested-recd~0.2.3). En ventanas de 13 símbolos el máximo de las seis
+semillas está en $r=3.95$ y vale $2.897\pm 0.006$. En $r=3.5675$ vale
+$2.383\pm 0.0004$. La sorpresa sigue haciendo pico en la banda de
+acumulación ($5.936\pm 0.004$) sobre $4.11\pm 0.02$ tuplas, y el residuo
+del bloque completo sigue en $0.0003\pm 0.0001$. La sinergia vale
+$0.0137\pm 0.0021$ ahí y $1.782\pm 0.010$ en $r=3.95$. El máximo de la
+ventana corta lo lleva $\mathrm{Syn}$ en el caos. A partir de ventanas de
+longitud $78$ el máximo vuelve a la banda de acumulación. En $r=3.85$ el
+residuo del bloque sigue en $0.192\pm 0.002$. El estimador antiguo
+reproduce cada media de la versión~1.
 
 \section{Introduction}
 \label{sec:intro}
@@ -119,21 +115,21 @@ The weights $0.6$ and $0.4$ are a declared design choice. They were not
 fitted to the logistic suite.
 
 On the published cascade of diffusively coupled logistic maps,
-$\excess$ is higher at $r=3.85$ than at $r=3.30$, and its grid maximum
-lies near the accumulation point rather than in developed chaos, at about
-$2.38$ \citep{Padilla2026framework}. The manuscript records that location
-as an observation. The geometric account attached to it --- a high-period
-orbit concentrated on a few joint symbols, still describable by pairs ---
-is stated there as a hypothesis.
+the pooled-count proxy is higher at $r=3.85$ than at $r=3.30$, and its
+grid maximum lies near the accumulation point, at about $2.38$
+\citep{Padilla2026framework}. Version~1 of this note reproduced that
+maximum and read it as a low-diversity orbit. The reading of the support
+is kept. The location of the hybrid maximum is not: it was an output of
+the flattened count inside $\mathrm{Syn}$.
 
-This paper tests that hypothesis. The test uses the published generator,
-the published seeds, and the published hybrid, on a grid refined through
-the accumulation band. Three comparisons are fixed in advance. The first
-splits the hybrid into $\mathrm{Syn}$ and $\mathrm{Surp}$. The second
-asks whether the pairwise maximum-entropy law already produces the score.
-The third asks whether the peak survives when the window is lengthened,
-and whether a period-3 window repeats it. The residual
-$\Respair$ is reported beside the proxy and is not replaced by it.
+The decomposition uses the published generator, the published seeds, and
+the published weights, on a grid refined through the accumulation band.
+Joint tuples are counted with nested-recd~0.2.3. Three comparisons stay
+fixed. The first splits the hybrid into $\mathrm{Syn}$ and
+$\mathrm{Surp}$. The second asks whether the pairwise maximum-entropy law
+already produces the score. The third asks how the ordering of stations
+changes when the window is lengthened, and whether a period-3 window
+follows the chaotic stations. $\Respair$ is reported beside the proxy.
 
 \section{Estimators}
 \label{sec:estimators}
@@ -239,41 +235,40 @@ realization per station: the seed whose mean number of distinct 13-symbol
 tuples is closest to the six-seed mean, and, inside that series, a run of
 16 symbols whose support is closest to the series mean.
 
-The window-13 means at $r=3.30$ and $r=3.85$ agree with the cascade
-archive to the stored digits, $1.757509$ and $1.863299$. At every station
-the stored means satisfy
-$0.6\,\mathrm{Syn}+0.4\,\mathrm{Surp}=\excess$
-to the precision of the archive.
+With \texttt{legacy\_pooled\_counting} the window-13 means at $r=3.30$
+and $r=3.85$ agree with the version~1 archive to the stored digits,
+$1.757509$ and $1.863299$. The largest absolute gap on the $294$ series
+is zero at the printed precision. The joint-tuple means at those stations
+are $2.210069$ and $2.802431$. At every station the corrected means
+satisfy $0.6\,\mathrm{Syn}+0.4\,\mathrm{Surp}=\excess$.
 
 \section{Results}
 \label{sec:results}
 
-\subsection{The maximum is a band, and Surp carries it}
+\subsection{The short-window maximum is at the grid edge}
 \label{sec:band}
 
 Figure~\ref{fig:decomp} shows the three scores along the grid.
 Table~\ref{tab:stations} lists the stations used below. The largest
-six-seed mean of $\excess$ is $2.378\pm 0.002$ at $r=3.5675$. The
-neighboring station $r=3.566168$, the location cited for the cascade
-maximum, has mean $2.378\pm 0.003$. At the nearest grid point to
-$r_\infty$ the mean is $2.343\pm 0.032$. Across the 33 stations in
-$[3.544,3.595]$, 29 means exceed $2.30$. The lowest mean in that band is
-$2.204$ and the highest is $2.378$.
+six-seed mean of $\excess$ is $2.897\pm 0.006$ at $r=3.95$.
+Every leave-one-seed maximum falls at that same station.
+At $r=3.5675$ the mean is $2.383\pm 0.0004$, and at the neighboring
+station $r=3.566168$ it is $2.383\pm 0.0004$. At the nearest grid point
+to $r_\infty$ the mean is $2.375\pm 0.007$. Across the 33 stations in
+$[3.544,3.595]$ every mean lies between $2.344$ and $2.383$. The band is
+still a plateau. It sits about $0.51$ bits below the grid edge.
 
-Leave-one-seed maxima of the mean fall at $r=3.566168$ once, at
-$r=3.5675$ four times, and at $r=3.575$ once. All six lie inside the same
-band. The maximum is the top of a plateau.
-
-At $r=3.5675$ the two pieces of the hybrid are
-$\mathrm{Syn}=0.0065\pm 0.0004$ and
+At $r=3.5675$ the two pieces are
+$\mathrm{Syn}=0.0137\pm 0.0021$ and
 $\mathrm{Surp}=5.936\pm 0.004$. Their weighted contributions are
-$0.0039$ and $2.374$ bits. The elevation above developed chaos at
-$r=3.85$, where $\excess=1.863\pm 0.004$, is $0.515$ bits. The Surp term
-contributes $+0.566$ bits to that difference and the Syn term contributes
-$-0.051$ bits. Along the 49 grid means, the correlation of $\excess$ with
-$\mathrm{Surp}$ is $0.999$, with $\mathrm{Syn}$ it is $-0.778$, and with
-the number of distinct tuples it is $-0.975$. The largest Syn on the grid
-is $0.118$ at $r=3.95$.
+$0.0082$ and $2.374$ bits. Developed chaos at $r=3.85$ has
+$\excess=2.802\pm 0.005$, so the accumulation station lies $0.420$ bits
+below it. The Surp term contributes $+0.566$ bits to that difference and
+the Syn term contributes $-0.986$ bits. Along the 49 grid means, the
+correlation of $\excess$ with $\mathrm{Surp}$ is $-0.204$, with
+$\mathrm{Syn}$ it is $0.643$, and with the number of distinct tuples it
+is $0.375$. The largest Syn on the grid is $1.782\pm 0.010$ at $r=3.95$,
+which is also where $\excess$ is largest.
 \FloatBarrier
 
 \begin{figure}[tp]
@@ -282,17 +277,17 @@ is $0.118$ at $r=3.95$.
 \caption{Window-13 scores along the logistic parameter. Curves are
 six-seed means and shading is the standard error. The band marks
 $r\in[3.544,3.595]$. The dashed line is $r_\infty=3.5699456$.
-$\mathrm{Surp}$ follows $\excess$. $\mathrm{Syn}$ is near zero inside
-the band and is largest at the right edge of the grid.}
+$\mathrm{Surp}$ peaks inside the band. $\excess$ and $\mathrm{Syn}$
+are largest at the right edge.}
 \label{fig:decomp}
-\msalt{Three stacked curves against the logistic parameter. Excess3 and surprise both rise to a plateau near 3.57 and then fall. Synergy is near zero on that plateau and rises only after 3.75.}
+\msalt{Three stacked curves against the logistic parameter. Surprise rises to a plateau near 3.57 and then falls. Excess3 and synergy stay lower on that plateau and rise through developed chaos, with their highest point at r = 3.95.}
 \end{figure}
 
 \begin{table}[t]
 \centering
 \footnotesize
 \setlength{\tabcolsep}{3.2pt}
-\caption{Six-seed means at nine stations. The standard error of the mean
+\caption{Six-seed means at eight stations. The standard error of the mean
 is in parentheses. Tuples, visits, and modal mass refer to windows of length 13.
 $\Respair$ is the Kullback--Leibler residual of the full symbol block.}
 \label{tab:stations}
@@ -304,18 +299,19 @@ $r$ & regime & $\excess$ & Syn & Surp & tuples & visits & modal & $\Respair$ \\
 \input{generated/table_stations.tex}\\
 \bottomrule
 \end{tabular}}
-\msalt{A table of nine logistic parameter values. Excess3 and surprise are highest near r = 3.5675, where about four joint tuples appear. The full-block residual is near zero there and near 0.19 in the period-3 window and in developed chaos.}
+\msalt{A table of logistic parameter values. Surprise and the tuple count are extreme near r = 3.5675, where about four joint tuples appear. Excess3 and synergy are largest at r = 3.95. The full-block residual is near zero in the accumulation band and near 0.19 in the period-3 window and in developed chaos.}
 \end{table}
 
 \subsection{The joint support collapses}
 \label{sec:support}
 
 Figure~\ref{fig:support} places the support next to the block residual.
-At the grid maximum a window of 13 symbols contains
+At $r=3.5675$ a window of 13 symbols contains
 $4.11\pm 0.02$ distinct joint tuples, visited $3.20$ times on average,
 with modal mass $0.304$. At $r=3.30$ the same window contains
 $11.39\pm 0.05$ tuples. At $r=3.85$ it contains $12.62\pm 0.02$, visited
-$1.04$ times, with modal mass $0.098$.
+$1.04$ times, with modal mass $0.098$. The grid maximum,
+$r=3.95$, contains $12.79\pm 0.02$ tuples.
 
 Figure~\ref{fig:film} shows sixteen consecutive symbols from the
 representative realization at each of those three stations. At
@@ -335,7 +331,7 @@ onto the second row. The displayed integer is the order of first
 appearance within the segment. The segment is chosen by the rule in
 Section~\ref{sec:protocol}.
 (a)~Period~2 uses eleven joint symbols.
-(b)~At the grid maximum the same four joint symbols repeat.
+(b)~At $r=3.5675$ the same four joint symbols repeat.
 (c)~Developed chaos uses thirteen joint symbols in the same length.}
 \label{fig:film}
 \msalt{Three pairs of colored rows. The middle pair repeats the colors and numbers 1, 2, 3, 4. The top and bottom pairs introduce many more colors.}
@@ -355,44 +351,44 @@ reaches $0.198\pm 0.003$ at $r=3.80$.}
 \msalt{Two stacked curves. The count of distinct joint tuples falls to about four inside the yellow band and then rises past twelve. The full-block residual stays near zero through that band and rises to about 0.20 after r = 3.75.}
 \end{figure}
 
-The block residual does not follow the proxy. At $r=3.5675$ it is
-$0.0003\pm 0.0001$. At $r=3.85$ it is $0.192\pm 0.002$, and its grid
-maximum is $0.198\pm 0.003$ at $r=3.80$. The full-block hybrid itself
-remains high through the accumulation band. Its grid maximum is $2.298$
-at $r=3.5575$. At $r=3.85$ the full-block hybrid has fallen to
-$0.174\pm 0.003$.
+The block residual does not follow the short-window proxy. At $r=3.5675$
+it is $0.0003\pm 0.0001$. At $r=3.85$ it is $0.192\pm 0.002$, and its grid
+maximum is $0.198\pm 0.003$ at $r=3.80$. The full-block hybrid is largest
+in the accumulation band. Its grid maximum is $2.369$ at $r=3.54409$.
+At $r=3.85$ the full-block hybrid is $0.316\pm 0.005$, and at $r=3.95$
+it is $0.320\pm 0.005$.
 \FloatBarrier
 
 \subsection{Pairs reproduce the stationary score}
 \label{sec:pairs}
 
-Table~\ref{tab:controls} compares the sliding window with the two
-independent-draw experiments. At the grid maximum, draws from the
-empirical joint $p$ score $2.073\pm 0.067$, and draws from $P^{(2)}$
-score $2.088\pm 0.062$. The ratio of the pairwise score to the sliding
-score is $0.878$. At $r=3.85$ the same ratio is $0.910$. The pairwise
-projection therefore accounts for the excess3 of the invariant joint.
-What it does not account for is the extra concentration of consecutive
-symbols: the sliding mean exceeds the independent draws from $p$ by
-$0.305\pm 0.067$ bits at the maximum, about one eighth of the sliding
-score. Those sliding windows occupy $4.11$ tuples, while the independent
+Table~\ref{tab:controls} compares the accumulation station with developed
+chaos. At $r=3.5675$, draws from the empirical joint $p$ score
+$2.161\pm 0.033$, and draws from $P^{(2)}$ score $2.174\pm 0.025$.
+The ratio of the pairwise score to the sliding score is $0.912$.
+At $r=3.85$ the same ratio is $0.942$, and at the grid maximum
+$r=3.95$ the two draw means are $2.743\pm 0.014$ and $2.736\pm 0.015$.
+The pairwise projection accounts for the excess3 of independent draws
+from the invariant joint at each of these stations. The sliding window
+exceeds the independent draws from $p$ by $0.221\pm 0.033$ bits at
+$r=3.5675$. Those windows occupy $4.11$ tuples, while the independent
 draws from the same $p$ occupy $5.54$.
 
-Inside single windows the comparison is tighter. At the grid maximum the
-gap between a window and draws from its own pairwise projection is
-$0.164\pm 0.002$, and the gap against draws from that window's own $p$ is
-$0.146\pm 0.006$. The two gaps agree at the scale of the Monte Carlo
-error. At $r=3.85$ the local pairwise gap is $-0.035\pm 0.008$. The short
-window does not contain a residual beyond pairs above the sampling
-fluctuation of a 13-symbol table.
+Inside single windows the two gaps agree with each other. At $r=3.5675$
+the gap against the window's own pairwise projection is
+$0.225\pm 0.005$, and the gap against draws from that window's own $p$
+is $0.206\pm 0.006$. At $r=3.85$ the gaps are $0.340\pm 0.010$ and
+$0.325\pm 0.013$. At $r=3.95$ they are $0.365\pm 0.009$ and
+$0.366\pm 0.008$. The short window does not separate a residual beyond
+pairs from the resampling fluctuation of a 13-symbol table.
 
 \begin{table}[t]
 \centering
 \small
 \setlength{\tabcolsep}{6pt}
-\caption{Grid maximum against developed chaos. Entries are six-seed means
-$\pm$ the standard error. Independent draws are eighty sequences of length
-13. Local gaps use 36 windows and four draws each.}
+\caption{Accumulation station against developed chaos. Entries are
+six-seed means $\pm$ the standard error. Independent draws are eighty
+sequences of length 13. Local gaps use 36 windows and four draws each.}
 \label{tab:controls}
 \begin{tabular}{@{}lcc@{}}
 \toprule
@@ -401,33 +397,34 @@ quantity & $r=3.5675$ & $r=3.85$ \\
 \input{generated/table_controls.tex}\\
 \bottomrule
 \end{tabular}
-\msalt{A two-column comparison of the accumulation maximum and developed chaos. Surprise, repeated tuples, and the sliding-window score are higher at the maximum. Synergy and the full-block residual are higher in chaos. Independent draws from the joint and from its pairwise projection agree with each other in both columns.}
+\msalt{A two-column comparison of r = 3.5675 and r = 3.85. Surprise and repeated tuples are higher at r = 3.5675. The sliding-window score, synergy, and the full-block residual are higher at r = 3.85. Independent draws from the joint and from its pairwise projection agree with each other in both columns.}
 \end{table}
 
-\subsection{The peak survives a longer window}
+\subsection{Long windows return the maximum to the band}
 \label{sec:window}
 
 Figure~\ref{fig:windows} extends the hybrid from length 6 to length 312.
-At $r=3.5675$ the mean is $2.326$ at length 6, $2.378$ at length 13, and
-$2.312\pm 0.027$ at length 312. At that last length the accumulation
-series still occupies only $6.5\pm 0.2$ joint symbols, with $55.8$ visits
-per occupied tuple. At $r=3.85$ the mean falls from $2.078$ at length 6
-through $1.863$ at length 13 and $0.912$ at length 104 to
-$0.514\pm 0.006$ at length 312, where the window occupies
-$199.5\pm 1.2$ symbols and only $1.57$ visits per tuple. Lengthening the
-window enlarges the contrast. It does not create the peak.
+At $r=3.5675$ the mean is $2.301$ at length 6, $2.383$ at length 13, and
+$2.375\pm 0.008$ at length 312. At that last length the accumulation
+series still occupies only $6.55$ joint symbols. At $r=3.85$ the mean is
+$2.447$ at length 6, $2.802$ at length 13, $1.964$ at length 104, and
+$1.135\pm 0.011$ at length 312, where the window occupies $199.5$ symbols.
+The argmax of the six-seed curve is $r=3.95$ for lengths $6$ through $52$,
+except length $8$, whose argmax is $r=3.90$. From length $78$ through
+$156$ the argmax is $r=3.566168$. At lengths $208$ and $312$ it is
+$r=3.5575$. Lengthening the window creates the accumulation maximum.
+It does not preserve the short-window ordering.
 
 The period-3 station $r=3.828427$ follows the chaotic curve. Its
-window-13 hybrid is $1.832\pm 0.003$, its support is $12.56\pm 0.02$
-tuples, its synergy is $0.096\pm 0.001$, and its block residual is
+window-13 hybrid is $2.723\pm 0.007$, its support is $12.56\pm 0.02$
+tuples, its synergy is $1.582\pm 0.009$, and its block residual is
 $0.194\pm 0.005$. A periodic window is not, by itself, the accumulation
-peak.
+plateau.
 
 Period~2 behaves in a third way. By length 312 its joint support has
-saturated at 32 symbols and $\excess$ has leveled at $1.224$, between the
-accumulation plateau and the chaotic decline. The period-8 station
-$r=3.54409$ is already inside the high band: $\excess=2.368\pm 0.008$
-and the short window holds $4.20\pm 0.09$ tuples.
+saturated at 32 symbols and $\excess$ has leveled at $1.248$. The
+period-8 station $r=3.54409$ is inside the high band of surprise:
+$\excess=2.381\pm 0.002$ and the short window holds $4.20\pm 0.09$ tuples.
 \FloatBarrier
 
 \begin{figure}[tp]
@@ -435,72 +432,64 @@ and the short window holds $4.20\pm 0.09$ tuples.
 \includegraphics[width=\textwidth]{fig4_windows.pdf}
 \caption{The hybrid against window length at four stations. Points are
 six-seed means. Lengths above 13 use about 160 evenly spaced windows.
-The accumulation curve stays near $2.3$. The period-3 and chaotic curves
-fall together toward $0.5$. Period~2 falls and then levels off.}
+The accumulation curve stays near $2.4$. The period-3 and chaotic curves
+rise above it at short lengths and fall toward $1.1$ by length 312.
+Period~2 falls and then levels off.}
 \label{fig:windows}
-\msalt{A log-scaled plot of excess3 against window length. The accumulation curve is nearly flat near 2.3. Period 2 declines and flattens near 1.2. Period 3 and developed chaos decline together to about 0.5 at window length 312.}
+\msalt{A log-scaled plot of excess3 against window length. The accumulation curve is nearly flat near 2.4. Period 2 declines and flattens near 1.25. Period 3 and developed chaos start higher and fall to about 1.1 at window length 312.}
 \end{figure}
 
 \FloatBarrier
 \section{Discussion}
 \label{sec:discussion}
 
-The measurement closes the geometric hypothesis on this ensemble. Near
-accumulation the orbit of the joint symbol lives on about four tuples.
-Those tuples are far from an independent product, so $\mathrm{Surp}$ is
-large, and the declared hybrid follows $\mathrm{Surp}$. The same joint is
-still close to its pairwise maximum-entropy projection, so $\Respair$ on
-the long block is indistinguishable from zero at the reported precision.
-Developed chaos widens the support, lowers $\mathrm{Surp}$, and is the
-region in which the block residual becomes nonzero. Synergy, as defined
-by equation~\eqref{eq:syn}, is the term that rises in that later region,
-and on this grid it never sets the location of the hybrid maximum.
+The support reading survives the recount. Near accumulation the orbit of
+the joint symbol lives on about four tuples. Those tuples are far from an
+independent product, so $\mathrm{Surp}$ is large, and the full-block
+$\Respair$ is $0.0003$ at the reported precision. Developed chaos widens
+the support, lowers $\mathrm{Surp}$, and is where the block residual is
+about $0.19$. Synergy, as defined by equation~\eqref{eq:syn}, is small on
+the accumulation plateau and is about $1.7$ bits in developed chaos. On
+windows of length $13$ that term sets the location of the hybrid maximum.
 
-The two quantities therefore mark different stations of the same cascade.
-A reading that takes the peak of $\excess$ as the place where ordinal
-structure beyond pairs is strongest points to the accumulation band. A
-reading that takes $\Respair>0$ as that place points to developed chaos,
-after the proxy has fallen. The foundations manuscript already separates
-the proxy from the residual and already distinguishes a common-driver
-geometry, in which surprise is high and the pairwise residual is not, from
-a higher-order joint \citep{Padilla2026framework}. The accumulation band
-of this coupled logistic system is the first of those geometries. The
-chaotic stations are where the second geometry begins to register in the
-block residual.
+A reading that takes the peak of short-window $\excess$ as the place where
+ordinal structure beyond pairs is strongest now points at developed chaos.
+A reading that takes the collapse of joint support, or the peak of
+$\mathrm{Surp}$, points at the accumulation band. The two readings
+separate once $\mathrm{Syn}$ is the joint-tuple quantity. They met in
+version~1 because the flattened count kept $\mathrm{Syn}$ below $0.12$
+everywhere. The long-window hybrid agrees with the support reading: from
+length $78$ the argmax is back inside the band, and the full block is
+largest at $r=3.54409$.
 
-Two smaller facts keep the statement from being sharper than the ensemble.
-First, consecutive windows are more concentrated than independent draws
-from the invariant joint, by about $0.30$ bits at the maximum. That is a
-real temporal contribution. It is smaller than the surprise of the joint,
-and the local 13-symbol comparison does not resolve a pairwise gap beyond
-the resampling error of the window. Second, one grid point inside the
-band, $r=3.582612$, has a block-residual mean of $0.068$ with standard
-error $0.059$. Isolated seeds can move a single station. They do not move
-the six-seed maximum of the residual, which remains at $r=3.80$.
+Two smaller facts keep the statement inside this ensemble. First,
+consecutive windows at $r=3.5675$ are more concentrated than independent
+draws from the invariant joint, by $0.221\pm 0.033$ bits. The local
+13-symbol gaps against $P^{(2)}$ and against the window's own $p$ agree,
+so that concentration is not a resolved residual beyond pairs. Second, one
+grid point inside the band, $r=3.582612$, has a block-residual mean of
+$0.068$ with standard error $0.059$. Isolated seeds can move a single
+station. They do not move the six-seed maximum of the residual, which
+remains at $r=3.80$.
 
 The scope is the generator in equation~\eqref{eq:map}: four coordinates,
 coupling $0.05$, noise level $0.003$, embedding order $3$, and the six
 seeds in equation~\eqref{eq:seed}. The weights in equation~\eqref{eq:excess}
-are the published weights. Because $\mathrm{Syn}$ is three orders of
-magnitude smaller than $\mathrm{Surp}$ at the maximum, a convex
-combination that still gives $\mathrm{Surp}$ positive weight keeps the
-maximum on the surprise curve; the paper does not refit the weights. The
-result does not derive the operational concordance bands used elsewhere in
-the framework, and it does not transfer the peak, or the delayed rise of
-$\Respair$, to other couplings, other dimensions, or series measured in
-the field. Early-warning comparisons with variance and lag-1
-autocorrelation remain those of the cascade study.
+are the published weights. The paper does not refit them. The result does
+not derive the operational concordance bands used elsewhere in the
+framework, and it does not transfer either maximum to other couplings,
+other dimensions, or series measured in the field.
 
 \section{Conclusion}
 \label{sec:conclusion}
 
-On this coupled logistic cascade, $\excess$ peaks near accumulation
-because the joint ordinal symbol repeats a handful of tuples and those
-tuples are far from independence. The part of the construction that is
-meant to see beyond pairs is quiet there. It becomes visible later, in
-developed chaos, after the proxy has come down. The period-3 window
-follows that later regime. A longer window preserves the peak and widens
-its contrast with chaos.
+On this coupled logistic cascade, joint-tuple $\excess$ on windows of
+length $13$ is largest at $r=3.95$. The accumulation band is where the
+joint symbol repeats about four tuples and $\mathrm{Surp}$ is largest,
+and where the full-block residual is quiet. $\mathrm{Syn}$ is the term
+that rises in developed chaos and, at this window length, sets the hybrid
+maximum. The period-3 window follows that chaotic regime. A longer window
+moves the hybrid maximum back into the accumulation band.
 
 \section*{Author declarations}
 
@@ -515,23 +504,28 @@ Johel Padilla-Villanueva: conceptualization, methodology, software, formal
 analysis, and writing.
 
 \section*{Data availability}
-This article is archived at
+This version is archived at
+\url{https://doi.org/10.5281/zenodo.22970080}.
+Version~1 remains
 \url{https://doi.org/10.5281/zenodo.22945800}.
-The generator, the seeds, and the estimators are those of the cascade in
-\citet{Padilla2026framework} and of nested-recd~0.2.2
-\citep{Padilla2026nested}. The decomposition archived for this article is the run of
-24~September 2026. The files
-\path{peak_flat_20260924_145527.csv},
-\path{peak_agg_20260924_145527.csv}, and
-\path{peak_results_20260924_145527.json}
-accompany this deposit and the repository
+The generator and the seeds are those of the cascade in
+\citet{Padilla2026framework}. The joint-tuple estimator is
+nested-recd~0.2.3
+(\url{https://doi.org/10.5281/zenodo.22970079}).
+The version~1 archive
+\path{peak_flat_20260924_145527.csv} and
+\path{peak_agg_20260924_145527.csv}
+is reproduced by \texttt{legacy\_pooled\_counting}.
+The corrected means are
+\path{corrected_flat.csv} and \path{corrected_agg.csv}
+from the run of 25~September 2026, together with
+\path{mc_stations.json} for the Monte Carlo rows.
+They accompany this deposit and the repository
 \url{https://github.com/johelpadilla/excess3}
 under \path{accumulation/data/}.
-They were produced by \path{scripts/peak_rinf_decompose.py}.
-The figures and the numeric tables were drawn from that archive by
-\path{make_figures.py}.
-The cascade and diagnostic scripts of the foundations study are
-\path{cascade_r_sweep.py} and \path{res_pair_diagnostics.py}.
+The figures and the numeric tables were drawn by
+\path{make_figures.py} from the corrected aggregate joined to the
+version~1 columns that the bug does not touch.
 
 \bibliographystyle{plainnat}
 \bibliography{references}
